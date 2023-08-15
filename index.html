@@ -1,59 +1,446 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingMuse </title>
 
-    <!-- Bootstrap CSS Link -->
-    <link rel="stylesheet" href="dist/css/vendor/bootstrap.min.css">
 
-    <!-- Theme CSS Link -->
-    <link rel="stylesheet" href="dist/css/main.css">
+    <!-- Fonts  -->
+    <link rel="stylesheet" href="css/Butler_Stencil_Webfont-stylesheet.css">
+    <link rel="stylesheet" href="css/Butler_Webfont-stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
-    <title>Pingmuse is Coming Soon
+    <link rel="stylesheet" href="https://use.typekit.net/irv0der.css">
 
-     </title>
+    <link rel="stylesheet" href="https://use.typekit.net/hky5sxh.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/css-bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/css-plugins.css">
+    <link rel="stylesheet" href="css/css-main.css">
+    <link rel="stylesheet" href="css/css-light.css">
+    <link rel="stylesheet" type="text/css" href="/grid/css/base.css" />
+
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="css/css-all.min.css">
+    <link rel="stylesheet" href="css/remixicon-remixicon.css"> 
+
 </head>
 
-<body>
-    <section class="main" style="background-image: url(dist/src/images/bg.jpg);">
-        <!-- Header Starts Here -->
-        <header class="container">
-            <nav>
-                <div class="logo">
-                    <a href="">                       
-<img src="dist/src/images/logo.png" alt="">
-                    </a>
-                </div>
 
-            </nav>
-        </header>
-        <!-- Header Ends Here -->
+<body class="smooth-scroll">
 
-        <!-- News Letter Starts Here -->
-        <section class="newsletter-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h2 class="has-line">PingMuse is Coming Soon</h2>
-                        <h6>
+    <div id="preloader" class="preloader">
+        <div class="percentage">0%</div>
+        <div class="progress"></div>
+    </div>
+    
+    <div class="tavonline-overlay"></div>
+    
+    
+    <div id="cursor">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="ri-arrow-right-up-line"></i>
+        <div class="cursor__bg"></div>
+    </div>
 
-                         Where tech meets art, Prepare for an Unprecedented Experience</h6>
+    <div id="content-scroll" data-scrollbar>
+        <div class="site-wrap" data-barba="wrapper">
+        <main data-barba="container">
 
+
+        <!-- HEADER
+        ============================================= -->	
+        <header>
+            <div class="header-container">
+                <div class="row px-0 gx-0">
+                    <div class="col-xl-2 col-md-6 col-6">
+                        <a href="index.html" class="logo"><img src="images/ping muse logo black.png" alt="logo"></a>
+                    </div>
+                    <div class="col-xl-10 col-md-6 col-6">
+                        <div class="burger-menu" data-cursor="medium">
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- News Letter Ends Here -->
+        </header>
 
-        <!-- Only Mobile View Starts Here -->
-        <section class="xs-bg d-md-none d-lg-none">
-            <img src="dist/src/images/xs.jpg" alt="img" class="img-fluid w-100">
-        </section>
-        <!-- Only Mobile View Ends Here -->
-    </section>
+        <!-- hero added  -->
+<div class="hero" >
+        <div class="page-caption">
+            <canvas class="scene scene--full" id="scene" width="952" height="952" style="width: 476px; height: 476px;"></canvas>
+            <div class="spacer-300 spacer-md-200"></div>
+            <div class="container">
+                
+                <h1 class="title">We Create brand stories through tech-art harmony</h1>
+            </div>
+        </div>
+        </div>
+            <!-- OVERLAY MENU -->
+            <div class="overlay-menu">
+                <div class="close">
+                    <i class="ri-close-line"></i>
+                </div>
+                <div class="row overlay-wrap">
+                    <div class="col-xl-8 col-md-7 left-area">
+                        <nav>
+                            <ul>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Home</a>
+                                    <ul class="sub">
+                                        <li class="current-menu-item"><a href="index.html">Home 1</a></li>
+                                        <li><a href="home-2.html">Home 2</a></li>
+                                        <li><a href="home-3.html">Home 3</a></li>
+                                        <li><a href="home-4.html">Home 4</a></li>
+                                        <li><a href="roll-showcase.html">Showcase 1</a></li>
+                                        <li><a href="letterflow-showcase.html">Showcase 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">Studio</a></li>
+                                <li><a href="projects-grid.html">Projects</a></li>
+                                <li class="menu-item-has-children"><a href="#">Journal</a>
+                                    <ul class="sub">
+                                        <li><a href="news-classic.html">Journal Classic</a></li>
+                                        <li><a href="news-list.html">Journal List</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul> 
+                        </nav> 
+                    </div>
+                    <div class="col-xl-4 col-md-5 right-area">
+                        <ul>
+                            <li><span class="title">Brief us</span></li>
+                            <li><a href="mailto:hello@pingmusecreative.com" target="_blank">hello@pingmusecreative.com</a></li>
+                            <li><a href="tel:34937606800" target="_blank">Tel. +34 937 606 800</a></li>
+                        </ul>
+                        <ul>
+                            <li><span class="title">Our Office</span></li>
+                            <li><p>1788 Morningview Lane, 10013<br> New York</p></li>
+                        </ul>
+                        <ul>
+                            <li><span class="title">Follow us</span></li>
+                            <li>
+                                <ul class="social-links">
+                                    <li><a href="#" target="_blank">Behance</a></li>
+                                    <li><a href="#" target="_blank">Dribbble</a></li>
+                                    <li><a href="#" target="_blank">Instagram</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            		<main>
+
+			<section class="content">				
+				<div class="grid grid--1">
+					<div class="grid-wrap">
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid1.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid2.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid3.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid4.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid5.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid6.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid7.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid8.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid9.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid10.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid11.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid12.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid13.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid14.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid15.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid16.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid17.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid18.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid19.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid20.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid21.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid22.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid23.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid24.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid25.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid26.webp)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid27.webp)"></div></div>
+						
+						<!-- <div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/grid28.jpg)"></div></div> -->
+						
+					</div>
+				</div>
+
+				<h1 class="content__title content__title--right content__title--top test1 ">Empowering <br> Brands</h1>
+                <!-- <h1 class=" test1 test2 ">Empowering <br> Brands</h1> -->
+			</section>
+
+		
+
+
+		</main>
+
+            <div class="about-pingmuse" id="target">
+     
+                <div class="container align-center mt-3">
+                    <div class="section-title">
+                        <span class="subheading text-anime">OUR MISSION</span>
+                        <h2 class="title col-xl-10 offset-xl-1 mt-4 text-anime">Unlock Your Brand's Full Potential with Our Creative Solutions</h2>
+                    </div>
+                    <div class="spacer-90 spacer-sm-45"></div>
+                    </div>
+
+                    <div class="container full-width">
+                        <div class="image-anime parallax-image">
+                            <img src="images/images-about.jpg" alt="about">
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                    <div class="row align-left">
+                        <div class="spacer-90 spacer-sm-15"></div>
+                        <div class="col-xl-6">
+                            <p class="bigger text-anime">At PingMuse, we thrive on breathing life into ideas, shaping them into vibrant realities that captivate and inspire. <br> we're not just a creative and marketing agency; we're your partners in shaping brand stories that resonate and captivate. </p>
+                        </div>
+                        <div class="col-xl-5 offset-xl-1">
+                            <p class="text-anime">We're more than just creators; we're dream architects. From shaping striking visual identities and designing seamless digital landscapes to crafting compelling content and igniting digital marketing strategies, we cover the spectrum of creative possibilities.</p>
+                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SERVICES
+            ============================================= -->	
+            <div class="services-1">
+                <div class="spacer-150 spacer-md-120 spacer-sm-60"></div>
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-xl-5 no-gutter">
+                            <div class="section-title">
+                                <span class="subheading text-anime">OUR SERVICES</span>
+                                <div class="spacer-30 spacer-md-15"></div>
+                                <h3 class="text-anime">Our services span the entire journey </h3>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 offset-xl-1 no-margin">
+                            <div class="spacer-15 spacer-sm-60"></div>
+
+                            <div class="row">
+                                <div class="col-xl-11 offset-xl-1 accordion">
+                                    <div class="spacer-45 spacer-sm-30"></div>
+                                    <div class="accordion-title">
+                                        <div class="spacer-30"></div>
+                                        <div class="text-anime">Branding</div>
+                                        <p class="little">At PingMuse, we specialize in crafting captivating visual identities and compelling narratives that define and elevate your brand's essence. Our expertise ensures your brand stands out and resonates with your audience across every touchpoint.</p>
+                                        <div class="spacer-30"></div>
+                                        <hr>
+                                    </div>
+                                    <div class="accordion-title">
+                                        <div class="spacer-30"></div>
+                                        <div class="text-anime">Marketing and Advertising</div>
+                                        <p class="little">Our services span the entire journey – from crafting captivating digital marketing strategies to managing social media platforms with finesse. We excel in creating compelling advertising campaigns.</p>
+                                        <div class="spacer-30"></div>
+                                        <hr>
+                                    </div>
+                                    <div class="accordion-title">
+                                        <div class="spacer-30"></div>
+                                        <div class="text-anime">Web Design and Development</div>
+                                        <p class="little">
+                                            PingMuse transforms concepts into captivating digital realities. From visually stunning layouts to seamless functionality, we create websites that engage and delight users..</p>
+                                        <div class="spacer-30"></div>
+                                        <hr>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COUNTER
+            ============================================= -->	
+            <div class="container agency-counter">
+                <div class="spacer-90 spacer-sm-30"></div>
+                <div class="row">
+                    <!-- Number -->
+                    <div class="col-4 counter">
+                        <div class="count-number">36</div>
+                        <div class="right-side">
+                            <div class="plus"><span>+</span></div>
+                            <div class="counter-title"><span>CLIENTS</span></div>
+                        </div>
+                    </div>
+                    <!-- Number -->
+                    <div class="col-4 counter">
+                        <div class="count-number">132</div>
+                        <div class="right-side">
+                            <div class="plus"><span>+</span></div>
+                            <div class="counter-title"><span>PROJECTS</span></div>
+                        </div>
+                    </div>
+                    <!-- Number -->
+                    <div class="col-4 counter">
+                        <div class="count-number">86</div>
+                        <div class="right-side">
+                            <div class="plus"><span>+</span></div>
+                            <div class="counter-title"><span>PIZZAS ORDERED</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                  <!-- PERSPECTIVE PORTFOLIO
+            ============================================= -->	
+            <div class="freelancer-works-wrap">
+                <div class="spacer-120"></div>
+                <div class="container">
+                    <div class="section-title">
+                        <span class="subheading text-anime">PORTFOLIO</span>
+                        <div class="spacer-30 spacer-md-15"></div>
+                        <h3 class="text-anime">Featured works</h3>
+                    </div>
+                </div>
+                <div class="spacer-30 spacer-sm-30"></div>
+                <div class="perspective-slider">
+                    
+                    <div class="slide">
+                        <a href="work-1.html" data-cursor-type="arrow" data-cursor-color="#FFAF82" class="image" style="background-image: url(images/premier.jpg);">
+                            <div class="slider-content">
+                                <span class="category">branding</span>
+                                <h1 data-splitting>Premier</h1>
+                            </div>
+                        </a>
+                    </div>
+    
+                    <div class="slide">
+                        <a href="work-1.html" data-cursor-type="arrow" data-cursor-color="#FFAF82" class="image" style="background-image: url(/images/axiom-website.jpg);">
+                            <div class="slider-content">
+                                <span class="category">branding</span>
+                                <h1 data-splitting>Axiom Egypt</h1>
+                            </div>
+                        </a>
+                    </div>
+
+
+    
+                    <!-- <div class="slide">
+                        <a href="work-2.html" data-cursor-type="arrow" class="image">
+                            <div class="slider-content">
+                                <span class="category">photography</span>
+                                <h1 data-splitting>Jasper Jeon</h1>
+                            </div>
+                            <div class="video-wrapper">
+                                <video playsinline loop="" muted="" >
+                                    <source src="/images/shatla2.png" type="video/mp4">
+                                </video>
+                            </div>
+                        </a>
+                    </div>
+     -->
+
+    
+                </div>
+    
+                <div class="slider-bottom">
+                    <div class="row">
+                        <div class="col-6"><a href="projects-grid.html">all works</a></div>
+                        <div class="col-6 align-right">
+                            <div class="slide-number-wrap">
+                                <div class="slide-numbers"></div>
+                                <div class="total-slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            <!-- CLIENTS
+            ============================================= -->	
+                    <div class="spacer-150 spacer-md-120 spacer-sm-60"></div>
+            <div class="clients grey-bg">
+                <div class="container">
+                    <div class="spacer-150 spacer-md-120 spacer-sm-60"></div>
+                    <div class="row">
+                        <div class="col-xl-4 col-12 offset-xl-1">
+                            <div class="section-title">
+                                <span class="subheading text-anime">OUR CLIENTS</span>
+                                <div class="spacer-30 spacer-md-15"></div>
+                                <h3 class="text-anime">Client Success Showcase</h3>
+                                <p class="text-anime">Our clients compose the captivating melody that fuels our creative souls.We believe in turning your ideas into captivating realities, infusing each project with an essence that reflects your brand's distinct identity.  With PingMuse, you're not just a client; you're the muse that propels us to create, innovate, and craft digital experiences that resonate far beyond the screen.</p>
+                                <div class="spacer-0 spacer-sm-15"></div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-12 offset-xl-1">
+                            <div class="spacer-120 spacer-sm-30"></div>
+                            <div class="row">
+                                <div class="col-6 client clip-animation from-right"><img src="images/pepsi.png" alt="client"></div>
+                                <div class="col-6 client clip-animation from-right"><img src="images/premier.png" alt="client"></div>
+                                <div class="col-6 client clip-animation from-right"><img src="images/axiom-egypt.png" alt="client"></div>
+                                <div class="col-6 client clip-animation from-right"><img src="images/rusukh.png" alt="client"></div>
+                                <div class="col-6 client clip-animation from-right"><img src="images/moondrop.png" alt="client"></div>
+                                <div class="col-6 client clip-animation from-right"><img src="images/ebuy.png" alt="client"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-150 spacer-md-120 spacer-sm-60"></div>
+            </div>
+
+
+
+
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-12">
+                            <h3>Let&rsquo;s Talk Your Brand Story!</h3>
+                        </div>
+                        <div class="col-md-4 col-12 ">
+                            <a style="font-family: system-ui;
+                            font-size: 29px;"  class="pingmuse-btn mt-2"><span data-hover="hello@pingmuse.com">hello@pingmuse.com</span></a>
+                        </div>
+                    </div>
+                    <div class="spacer-30"></div>
+                    <div class="row bottom-wrapper">
+                            <div class="col-xl-4 col-md-12">
+                                <p class="little">Copyright &copy; 2023 Pingmuse</p>
+                            </div>
+                            <div class="col-xl-8 col-md-12 social-links">
+                              
+                                <a href="https://www.instagram.com/pingmusemedia">Instagram</a>
+                            </div>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+        </div>
+</div>
+
+    <script src="js/js-jquery.js"></script>
+    <script src="js/js-plugins.js"></script>
+    <script src="js/js-webgl.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC44qiQKRvAB1ETh4F1oQcSs9PIfLPbCQE&amp;sensor=false"></script>
+    <script src="js/js-map.js"></script>
+    <script src="js/js-main.js"></script>
+
+    <script src="/grid/js/gsap.min.js"></script>
+    <script src="/grid/js/ScrollTrigger.min.js"></script>
+    <script src="/grid/js/lenis.min.js"></script>
+    <script src="/grid/js/imagesloaded.pkgd.min.js"></script>
+    <script type="module" src="/grid/js/index.js"></script>
+
+
+    
 </body>
-
 </html>
