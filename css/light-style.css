@@ -5,7 +5,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size:100%;
     font:inherit;
     vertical-align:baseline
-
 }
 
 .big-tittlee {
@@ -35,12 +34,6 @@ ol,ul{
     list-style:disc;
     padding-left:1.3em
 }
-
-.text-wrapper ol {
-    list-style: decimal-leading-zero;
-    color: rgba(25, 27, 29, 0.6);
-    line-height: 28px;
-}
 ul li,ol li{
     padding-bottom:1em
 }
@@ -57,10 +50,8 @@ table{
 }
 /*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/
 html{
-    scroll-behavior: smooth;
     line-height:1.15;
     -webkit-text-size-adjust:100%
-    
 }
 body{
     margin:0;
@@ -2404,18 +2395,11 @@ body.dark ul.check-payments li:hover{
 .hide_desktop{
     display:none
 }
-
-
 .wrapper-small{
     width:100%;
     margin-right:auto;
     margin-left:auto;
     margin-bottom:100px
-}
-
-.project-page .wrapper-small{
-  
-    margin-bottom:15px
 }
 .wrapper{
     width:100%;
@@ -5142,7 +5126,7 @@ span.fs-tot::before{
     color:#ffffff;
     display:block;
     overflow:hidden ;
-    text-shadow: 0.05px 0.05px #000, -0.05px 0.05px #000, 0.05px -0.05px #010000, -0.05px -0.05px #000, 0.05px 0.05px 1px #231919;
+    text-shadow: 0.5px 0.5px #000, -0.5px 0.5px #000, 0.5px -0.5px #010000, -0.5px -0.5px #000, 0.5px 0.5px 1px #231919;
 }
 .cas-progress{
     display:block;
@@ -5175,7 +5159,7 @@ span.fs-tot::before{
     letter-spacing:-.07em;
     position:fixed;
     top:10%;
-    left:-350px;
+    left:0;
     white-space:nowrap;
     opacity:.4;
 }
@@ -7004,17 +6988,17 @@ span.ac-sign{
         padding-top:40%
     }
     .project-page-header.style_3 .big-title{
-        font-size:30px;
-        line-height:33px
+        font-size:45px;
+        line-height:55px
     }
     .project-page-header.style_3 .project-title{
         margin-bottom:0
     }
     .project-page-header.style_3 .project-cat{
-        font-size:20px;
+        font-size:25px;
         margin-top:0;
         margin-left:6px;
-        line-height:20px
+        line-height:35px
     }
     .project-page-header.style_2 .project-details{
         width:84%
@@ -7070,9 +7054,6 @@ span.ac-sign{
     .cas-titles .cs-title{
         font-size: 25px;
         padding:20px 0
-    }
-    .nobr br {
-        display: none;
     }
     .cas-titles{
         height:80px
