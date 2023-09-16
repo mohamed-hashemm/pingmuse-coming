@@ -1,7 +1,13 @@
 
-.test1{
-    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
-    background-attachment: fixed;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.subtext-project {
+  
+  font-weight: 600;
+  color: #191b1d;
+  line-height: 28px;
+}
+
+@media (max-width: 768px) {
+ .project-page h2 {
+    margin-bottom: 0;
   }
+}
